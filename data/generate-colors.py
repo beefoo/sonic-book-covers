@@ -8,7 +8,7 @@ import json
 import re
 
 # Config
-ID = 'peter_pan'
+ID = 'wizard_of_oz'
 INPUT_FILE = 'txt/'+ID+'.txt'
 OUTPUT_FILE = 'json/books/'+ID+'.json'
 COLORS = ['beige','bisque','black','almond','blue','brown','bronze','wood','chartreuse','chocolate','coral','silk','crimson','cyan','brick','floral','forest','fuchsia','gainsboro','ghost','gold','goldenrod','gray','green','honeydew','indigo','ivory','khaki','lavender','lawn','lemon','lime','linen','magenta','maroon','midnight','mint','misty','moccasin','navy','oldlace','olive','orange','orchid','papaya','peach','peru','pink','plum','purple','red','rose','rosy','royal','saddle','salmon','sandy','sea','seashell','sienna','silver','sky','slate','snow','spring','steel','tan','teal','thistle','tomato','turquoise','violet','wheat','white','smoke','yellow']

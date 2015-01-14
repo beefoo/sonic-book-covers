@@ -40,6 +40,16 @@
       "title": "The Picture of Dorian Gray",
       "author": "Oscar Wilde",
       "txt": "picture_of_dorian_gray.txt"
+    },{
+      "id": "anne_of_green_gables",
+      "title": "Anne of Green Gables",
+      "author": "Lucy Maud Montgomery",
+      "txt": "anne_of_green_gables.txt"
+    },{
+      "id": "wizard_of_oz",
+      "title": "The Wonderful Wizard of Oz",
+      "author": "L. Frank Baum",
+      "txt": "wizard_of_oz.txt"
     }
   ]
 }

@@ -7,7 +7,7 @@
   <meta charset="utf-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <title>Sonic Book Covers</title>
-  <meta name="description" content="">
+  <meta name="description" content="A proof-of-concept for generating small sound-signatures for books.">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   
   <link rel="stylesheet" href="css/app.css">
@@ -21,9 +21,10 @@
     <h2><a href="http://www.nypl.org/events/programs/2015/01/14/nyplreadium-open-book-hack-day-volume-2-public-domain">Open Book Hack</a> Experiment by <a href="http://brianfoo.com">Brian Foo</a></h2>
   </div>
   
-  <div id="books" class="books loading">
-    
-  </div>
+  <p>A proof-of-concept for generating small sound-signatures for books. It currently looks through book text for color words, then uses <a href="http://en.wikipedia.org/wiki/Circle_of_fifths">Circle of Fifths</a> to map color to sound (see also <a href="https://github.com/mudcube/MIDI.js/blob/master/js/MusicTheory/Synesthesia.js">Synesthesia.js</a>).
+    Sound is generated using <a href="https://github.com/mudcube/MIDI.js">Midi.js</a>. All code can be found <a href="https://github.com/beefoo/sonic-book-covers">here</a>. Email me at <a href="mailto:hello@brianfoo.com">hello@brianfoo.com</a>.</p>
+  
+  <div id="books" class="books loading"></div>
   
   <script src="//ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
   <script>window.jQuery || document.write('<script src="js/vendor/jquery-1.10.2.min.js"><\/script>')</script>
