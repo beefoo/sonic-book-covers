@@ -1,0 +1,45 @@
+{
+  "books": [
+    {
+      "id": "through_the_looking_glass",
+      "title": "Through the Looking-Glass",
+      "author": "Lewis Carroll",
+      "txt": "through_the_looking_glass.txt"
+    },{
+      "id": "war_of_the_worlds",
+      "title": "The War of the Worlds",
+      "author": "H. G. Wells.",
+      "txt": "war_of_the_worlds.txt"
+    },{
+      "id": "peter_pan",
+      "title": "Peter Pan in Kensington Gardens",
+      "author": "J. M. Barrie",
+      "txt": "peter_pan.txt"
+    },{
+      "id": "adventures_of_huckleberry_finn",
+      "title": "The Adventures of Huckleberry Finn",
+      "author": "Mark Twain",
+      "txt": "adventures_of_huckleberry_finn.txt"
+    },{
+      "id": "frankenstein",
+      "title": "Frankenstein; Or, The Modern Prometheus",
+      "author": "Mary Shelley",
+      "txt": "frankenstein.txt"
+    },{
+      "id": "a_tale_of_two_cities",
+      "title": "A Tale of Two Cities",
+      "author": "Charles Dickens",
+      "txt": "a_tale_of_two_cities.txt"
+    },{
+      "id": "around_the_world_in_eighty_days",
+      "title": "Around the World in Eighty Days",
+      "author": "Jules Verne",
+      "txt": "around_the_world_in_eighty_days.txt"
+    },{
+      "id": "picture_of_dorian_gray",
+      "title": "The Picture of Dorian Gray",
+      "author": "Oscar Wilde",
+      "txt": "picture_of_dorian_gray.txt"
+    }
+  ]
+}

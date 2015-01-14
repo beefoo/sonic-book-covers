@@ -1,0 +1,102 @@
+@import "mixins";
+@import "variables";
+
+@import "../css/vendor/normalize.css";
+
+/* Document */
+body {
+  color: $dark;  
+  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+  padding: 20px;
+}
+
+/* Global Elements */
+a {
+  color: $secondary;
+  text-decoration: none;
+  &:active,
+  &:hover {    
+    color: $secondaryLight;
+  }
+  &:link,
+  &:active,
+  &:hover,
+  &:visited {
+    outline: 0;
+  }
+}
+img {
+  border: 0;
+}
+ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+input[type="text"],
+input[type="email"],
+input[type="number"] {
+  display: block;
+  height: 40px;
+  line-height: 40px;
+  text-indent: 6px;
+  width: 100%;
+  border: 1px solid #ccc;
+  outline: none;
+  @include box-sizing();
+}
+label {
+  display: block;
+  margin: 20px 0 10px;
+  font-size: 1.2em;
+}
+hr {
+  border: none;
+  padding: 0;
+  margin: 20px 0;
+  border-bottom: 1px dashed $medium;
+}
+
+/* Components */
+
+.page-title {
+  h1 {
+    margin-bottom: 0;
+  }
+  h2 {
+    margin-top: 0;
+  }
+}
+
+button, .button {
+  background: $secondary;
+  color: $white;
+  padding: 0.5em 1em;
+  margin: 0.5em 0;
+  text-align: center;
+  display: inline-block;
+  border: none;
+  outline: none;
+  @include border-radius(6px);
+  text-decoration: none;
+  &:hover {
+    background: $secondaryLight;
+    color: $white;
+  }
+  &.expand {
+    display: block;
+  }
+  &.large {
+    font-size: 1.4em;
+    font-weight: bold;
+  }
+}
+button.expand {
+  width: 100%;
+}
+.button-group {
+  .button:first-child,
+  button:first-child {
+    margin-right: 4px;
+  }
+}
