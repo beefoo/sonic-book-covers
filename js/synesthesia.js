@@ -1,8 +1,12 @@
-{
+window.SYNESTHESIA = {
   "title": "Circle of Fifths",
   "ref": "Joseph Johnston",
   "year": 2003,
   "format": "RGB",
+  "octaves": 7,
+  "notes": [
+    "C", "C#", "D", "D#", "E", "F", "F#", "G", "G#", "A", "A#", "B"
+  ],
   "colors": [
     {
       "name": "yellow",
@@ -54,4 +58,4 @@
       "note": "B"
     }
   ]
-}
+};

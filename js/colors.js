@@ -1,5 +1,4 @@
-{
-  "colors": [
+window.COLORS = [
     {"name": "aqua", "category": "teal"},
     {"name": "aquamarine", "category": "teal"},
     {"name": "azure", "category": "light blue"},
@@ -79,5 +78,4 @@
     {"name": "white", "category": "light blue"},
     {"name": "smoke", "category": "light blue"},
     {"name": "yellow", "category": "yellow"}
-  ]
-}
+  ];

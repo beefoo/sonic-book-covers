@@ -33,31 +33,6 @@ ul {
   margin: 0;
   padding: 0;
 }
-input[type="text"],
-input[type="email"],
-input[type="number"] {
-  display: block;
-  height: 40px;
-  line-height: 40px;
-  text-indent: 6px;
-  width: 100%;
-  border: 1px solid #ccc;
-  outline: none;
-  @include box-sizing();
-}
-label {
-  display: block;
-  margin: 20px 0 10px;
-  font-size: 1.2em;
-}
-hr {
-  border: none;
-  padding: 0;
-  margin: 20px 0;
-  border-bottom: 1px dashed $medium;
-}
-
-/* Components */
 
 .page-title {
   h1 {
@@ -68,35 +43,42 @@ hr {
   }
 }
 
-button, .button {
-  background: $secondary;
-  color: $white;
-  padding: 0.5em 1em;
-  margin: 0.5em 0;
-  text-align: center;
-  display: inline-block;
-  border: none;
-  outline: none;
-  @include border-radius(6px);
-  text-decoration: none;
-  &:hover {
-    background: $secondaryLight;
+.books {
+  
+  
+  
+  &.loading {
+    &:before {
+      text-align: center;
+      content: 'Loading...';
+    }
+  }
+  
+  .book {
+    display: inline-block;
+    width: 200px;
+    height: 300px;
+    padding: 20px;
+    margin: 20px;
+    text-align: center;
+    background: $medium;
     color: $white;
-  }
-  &.expand {
-    display: block;
-  }
-  &.large {
-    font-size: 1.4em;
-    font-weight: bold;
+    vertical-align: middle;
+    font-size: 1.6em;
+    overflow: hidden;
+    @include box-sizing();
+    @include transition(background 0.5s);
+    &:hover {
+      background: $dark;
+    }
+    
+    @include clearfix();
+    
+    .color {
+      width: 10px;
+      height: 10px;
+      float: left;
+    }
   }
 }
-button.expand {
-  width: 100%;
-}
-.button-group {
-  .button:first-child,
-  button:first-child {
-    margin-right: 4px;
-  }
-}
+
